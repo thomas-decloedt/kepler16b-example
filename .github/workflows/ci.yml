@@ -32,3 +32,5 @@ jobs:
       with:
         name: build
         path: build/
+    - name: Generate Docs
+      run: ./gradlew generateDocs
