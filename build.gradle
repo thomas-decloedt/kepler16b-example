@@ -1,19 +1,19 @@
 /* 
  * The Maven coordinates for the project artifact
  */
-ext.title = 'Example'
-description = 'This is an tutorial2 example'
+ext.title = 'Tutorial2'
+description = 'This is tutorial2 example'
 group = 'com.example'
 version = '1.0.0'
 
-/* 
- * The Gradle plugins 
+/*
+ * The Gradle plugins
  */
 apply plugin: 'base'
 apply plugin: 'oml'
 
-/* 
- * The Gradle task dependencies 
+/*
+ * The Gradle task dependencies
  */
 buildscript {
 	repositories {
@@ -21,7 +21,7 @@ buildscript {
 		mavenCentral()
 	}
 	dependencies {
-	    classpath 'io.opencaesar.owl:owl-doc-gradle:2.+'
+        classpath 'io.opencaesar.owl:owl-doc-gradle:2.+'
         classpath 'io.opencaesar.owl:owl-fuseki-gradle:+'
         classpath 'io.opencaesar.owl:owl-query-gradle:+'
         classpath 'io.opencaesar.owl:owl-load-gradle:+'
@@ -53,8 +53,7 @@ repositories {
  * The OML dependencies
  */
 dependencies {
-    //oml "io.opencaesar.ontologies:core-vocabularies:5.+"
-    oml "io.opencaesar.ontologies:metrology-vocabularies:+"
+    oml "io.opencaesar.ontologies:metrology-vocabularies:7.+"
 }
 
 /*
@@ -98,7 +97,6 @@ task owlReason(type:io.opencaesar.owl.reason.OwlReasonTask, group:"oml", depends
 
 /*
  * A task to generate documentation for the OWL catalog
- * @seeAlso https://github.com/opencaesar/owl-tools/blob/master/owl-doc/README.md
  */
 task generateDocs(type: io.opencaesar.owl.doc.OwlDocTask, dependsOn: owlReason) {
     // OWL catalog
@@ -122,7 +120,7 @@ task generateDocs(type: io.opencaesar.owl.doc.OwlDocTask, dependsOn: owlReason) 
 task startFuseki(type: io.opencaesar.owl.fuseki.StartFusekiTask, group:"oml") {
     configurationPath = file('.fuseki.ttl')
     outputFolderPath = file('.fuseki')
-    //webUI = true
+    webUI = true
 }
 
 /*
@@ -256,7 +254,7 @@ gradle.taskGraph.whenReady { taskGraph ->
 
 /*
  * Integration with the Eclipse IDE
- */ 
+ */
 apply plugin: 'eclipse'
 
 eclipse {
