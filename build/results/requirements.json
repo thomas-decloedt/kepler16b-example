@@ -1,0 +1,28 @@
+{ "head": {
+    "vars": [ "r_id" , "c_name" , "i_name" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "r_id": { "type": "literal" , "value": "R.04" } ,
+        "c_name": { "type": "literal" , "value": "Orbiter Ground Data System" } ,
+        "i_name": { "type": "literal" , "value": "Command Out" }
+      } ,
+      { 
+        "r_id": { "type": "literal" , "value": "R.05" } ,
+        "c_name": { "type": "literal" , "value": "Orbiter Spacecraft" } ,
+        "i_name": { "type": "literal" , "value": "Command In" }
+      } ,
+      { 
+        "r_id": { "type": "literal" , "value": "R.06" } ,
+        "c_name": { "type": "literal" , "value": "Orbiter Ground Data System" } ,
+        "i_name": { "type": "literal" , "value": "Telemetry In" }
+      } ,
+      { 
+        "r_id": { "type": "literal" , "value": "R.07" } ,
+        "c_name": { "type": "literal" , "value": "Orbiter Spacecraft" } ,
+        "i_name": { "type": "literal" , "value": "Telemetry Out" }
+      }
+    ]
+  }
+}

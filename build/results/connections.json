@@ -1,0 +1,16 @@
+{ "head": {
+    "vars": [ "c1_name" , "c2_name" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "c1_name": { "type": "literal" , "value": "Orbiter Ground Data System" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_name": { "type": "literal" , "value": "Orbiter Spacecraft" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Ground Data System" }
+      }
+    ]
+  }
+}

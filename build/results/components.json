@@ -1,0 +1,102 @@
+{ "head": {
+    "vars": [ "c1_id" , "c1_name" , "c1_mass" , "c2_id" , "c2_name" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "c1_id": { "type": "literal" , "value": "C.01" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Launch System" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "2000.0" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.01" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Power Subsystem" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "297.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.02" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Harness" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "138.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.03" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Thermal Subsystem" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "307.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.04" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter C&DH Subsystem" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "147.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.05" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Telecom Subsystem" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "316.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.06" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter GN&C Subsystem" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "156.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.07" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Mechanical Subsystem" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "325.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.08" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Flight Software" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "165.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.02.09" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Propulsion Subsystem" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "6.0" } ,
+        "c2_id": { "type": "literal" , "value": "C.02" } ,
+        "c2_name": { "type": "literal" , "value": "Orbiter Spacecraft" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.03" } ,
+        "c1_name": { "type": "literal" , "value": "Orbiter Ground Data System" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.04" } ,
+        "c1_name": { "type": "literal" , "value": "Mission Operations System" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.05" } ,
+        "c1_name": { "type": "literal" , "value": "Lander Launch System" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "3500.0" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.06" } ,
+        "c1_name": { "type": "literal" , "value": "Lander Spacecraft" } ,
+        "c1_mass": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "1200.0" }
+      } ,
+      { 
+        "c1_id": { "type": "literal" , "value": "C.07" } ,
+        "c1_name": { "type": "literal" , "value": "Lander Ground Data System" }
+      }
+    ]
+  }
+}
